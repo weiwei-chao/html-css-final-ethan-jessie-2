@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  padding: 5px;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+#left1{
+  font-family : Avenir Black;
+  font-size: 30px;
+  color: gray;
+  display: flex;
+}
+
+#right{
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  background-color: white;
+}
+
+h1{
+  color: #1B7092;
+  font-family : Avenir Black;
+  font-size: 40px;
+  background-color: white;
+  padding:10px;
+}
+
+h2{
+  font-size: 27px;
+  align-self: center;
+}
+
+h3{
+  color: #1B7092;
+  font-family : Avenir Black;
+  padding:8px;
+  margin: 5px;
+  font-size: 25px;
+}
+
+h4{
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family : Avenir Black;
+  padding: 30px;
+}
+
+h5{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background-color: #1B7092;
+  padding: 5px;
+}
+
+h6{
+  font-family : Avenir;
+  font-size: 18px;
+  color: #1B7092;
+  padding: 10px;
+}
+
+#pic1{
+  width: 45px;
+  margin-right: 8px;
+}
+
+#pic2{
+  width:30px;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "grid1 grid2";
+}
+
+#flex1{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  grid-area: grid1;
+  background-color: white;
+  border: 2px solid #1B7092;
+}
+
+#flex2{
+  grid-area: grid2;
+  background-color: #A9D1E2;
+}
+
+#down{
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+}
+
+#inner-grid{
+  display: grid;
+  margin-left: 80px;
+  margin-right: 80px;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "g1 g2 g3 g4 g5";
+}
+
+.item{
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px 130px 130px 130px;
+  grid-template-areas:
+  "i1"
+  "i2"
+  "i3"
+  "i4";
+}
+
+#i1{
+  grid-area: i1;
+  border-bottom: 2px solid #1B7092;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#i2{
+  grid-area: i2;
+  border-bottom: 2px solid #1B7092;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#i3{
+  grid-area: i3;
+  border-bottom: 2px solid #1B7092;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#i4{
+  grid-area: i4;
+  border-bottom: 2px solid #1B7092;
+  padding-bottom: 10px;
+}
